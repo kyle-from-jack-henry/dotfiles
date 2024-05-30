@@ -1,0 +1,23 @@
+zstyle ':znap:*' repos-dir ~/.config/zsh/custom
+source ~/.config/zsh/zsh-snap/znap.zsh
+source $ZSH/oh-my-zsh.sh
+# source $PRIV/zsh_private_env
+
+#### PLUGINS
+znap source zsh-users/zsh-syntax-highlighting
+znap source marlonrichert/zsh-autocomplete
+znap source spaceship-prompt/spaceship-prompt
+znap source spaceship-prompt/spaceship-vi-mode
+znap source jeffreytse/zsh-vi-mode
+
+#### THEME
+export ZSH_THEME="spaceship"
+
+#### PATH
+path+=(~/.cargo/bin)
+path+=(/opt/homebrew/bin)
+export PATH
+
+for file in $ALIASES/*.alias; source $file
+# for file in $FUNCTIONS/*.function; source $file
+

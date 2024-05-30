@@ -1,0 +1,15 @@
+alias gs="git status"
+alias ga="git add ."
+alias gcm="git commit -m"
+alias gpf="git push --force-with-lease"
+alias gcom="git checkout master && git pull"
+alias gpus="git push --set-upstream origin"
+alias gd='git diff'
+alias grm='git rebase origin/master'
+
+### STASH
+alias gsh='git stash'
+alias gsha='git stash apply'
+
+### CLONE
+alias gcl='git clone'

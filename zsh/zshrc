@@ -7,8 +7,6 @@ source $ZSH/oh-my-zsh.sh
 znap source zsh-users/zsh-syntax-highlighting
 znap source marlonrichert/zsh-autocomplete
 znap source spaceship-prompt/spaceship-prompt
-znap source spaceship-prompt/spaceship-vi-mode
-znap source jeffreytse/zsh-vi-mode
 
 #### THEME
 export ZSH_THEME="spaceship"
